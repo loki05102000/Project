@@ -1,1 +1,180 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
 
+#header {
+  background-color: black;
+
+}
+
+.headerPart1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 50px;
+  background-color:  #1A1A1A;
+  ;
+}
+
+.deliveryContant span {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #626262;
+  padding: 10px;
+}
+
+.vl {
+  border-left: 2px solid #626262;
+  height: 19px;
+  display: inline-block;
+}
+.socialContant {
+  display: flex;
+  gap: 50px;
+}
+.socialContant span {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #626262;
+}
+
+.socialIcons img {
+  padding: 0px 10px;
+}
+
+.headerPart2 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 4px 50px;
+}
+
+.headerHeading h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 275;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.headerBags span {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#contact {
+  background-color: black;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+}
+
+.headerLine {
+  color: #626262;
+}
+
+.contactHeader {
+  display: flex;
+  gap: 20vw;
+}
+
+.headerLine {
+  width: 21vw;
+}
+
+.inputs {
+  width: 38vw;
+  background-color: black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding-bottom: 10px;
+}
+
+.inputs::placeholder {
+  font-family: syne;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.subTitle {
+  font-family: Syne;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bodyText {
+  font-family: syne;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.h1Title {
+  z-index: 1000;
+}
+.h1Title h1 {
+  color: #ffffff;
+  font-family: Syne;
+  font-size: 135px;
+  font-weight: 800;
+  line-height: 103px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sendButton {
+  background-color: black;
+  font-family: Syne;
+  height: 140px;
+  width: 140px;
+  color: #f07e15;
+  position: absolute;
+  top: 36vh;
+  left: 84vw;
+  border-radius: 50%;
+  border: #f07e15 1px solid;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+#footer {
+  padding: 20px 0px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
