@@ -6,15 +6,13 @@
 
 #header {
   background-color: black;
-
 }
 
 .headerPart1 {
   display: flex;
   justify-content: space-between;
   padding: 4px 50px;
-  background-color:  #1A1A1A;
-  ;
+  background-color: #1a1a1a;
 }
 
 .deliveryContant span {
@@ -35,7 +33,7 @@
 }
 .socialContant {
   display: flex;
-  gap: 50px;
+  gap: 10px;
 }
 .socialContant span {
   font-family: Poppins;
@@ -55,7 +53,12 @@
   display: flex;
   justify-content: space-between;
   color: white;
-  padding: 4px 50px;
+  padding: 0px 50px;
+}
+
+.image {
+  padding: 0px 50px;
+  width: 98vw;
 }
 
 .headerHeading h1 {
@@ -75,6 +78,167 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+.headerPart3 {
+  background-image: url(images/Group\ 15.png);
+  background-size: cover;
+  padding: 4px 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 100px;
+}
+
+.headerPart3 a {
+  text-decoration: none;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.h1Heading1 {
+  color: white;
+  font-family: Syne;
+  font-size: 135px;
+  font-weight: 800;
+  line-height: 103px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 18vh;
+  padding-bottom: 4vh;
+}
+
+.h1Heading2 {
+  color: white;
+  font-family: Syne;
+  font-size: 135px;
+  font-weight: 800;
+  line-height: 103px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 7vw;
+}
+
+.year {
+  font-family: Syne;
+  font-size: 135px;
+  font-weight: 800;
+  line-height: 103px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f07e15;
+  text-shadow: -1px 1px 0 white, 2px 2px 0 white, 1px -1px 0 white,
+    -1px -1px 0 white;
+  padding-left: 20vw;
+  padding-bottom: 4vh;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: #ffffff 1px solid;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sectionHeading {
+  padding: 40px 0px 0px 50px;
+  font-family: Syne;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 108px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.subSection {
+  display: flex;
+  gap: 80px;
+  padding-left: 50px;
+}
+ol li {
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.secImage {
+  padding-left: 50px;
+}
+li {
+  padding-bottom: 16px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.accessories {
+  font-family: Syne;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.images {
+  width: 310px;
+  height: 322px;
+}
+
+.title {
+  font-family: Syne;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.description {
+  color: #16161580;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.price {
+  font-family: Syne;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 #contact {
   background-color: black;
   padding: 40px 50px;
@@ -96,6 +260,7 @@
 .contactHeader {
   display: flex;
   gap: 20vw;
+  flex-wrap: wrap;
 }
 
 .headerLine {
@@ -155,9 +320,7 @@
   height: 140px;
   width: 140px;
   color: #f07e15;
-  position: absolute;
-  top: 36vh;
-  left: 84vw;
+  left: 40vw;
   border-radius: 50%;
   border: #f07e15 1px solid;
   text-align: center;
@@ -165,6 +328,9 @@
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0em;
+  position: relative;
+  top: 26vh;
+  margin-top: -140px;
 }
 
 #footer {
@@ -177,4 +343,79 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0em;
+}
+
+@media only screen and (max-width: 600px) {
+  .headerPart1 {
+    padding: 4px 8px;
+  }
+  .headerPart2 {
+    padding: 4px 8px;
+  }
+  .image {
+    padding: 0px 0px;
+    width: 100vw;
+  }
+  .h1Heading1,
+  .h1Heading2,
+  .year {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 0px;
+  }
+  .year {
+    padding-left: 30px;
+  }
+  .h1Heading1 {
+    padding-left: 5px;
+  }
+  .h1Heading2 {
+    padding-left: 5px;
+  }
+
+  .subSection {
+    flex-wrap: wrap;
+  }
+  .sectionHeading {
+    font-family: Syne;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .secImage {
+    width: 100vw;
+    padding: 0%;
+  }
+  .contactHeader {
+    width: 100vw;
+  }
+
+  .h1Title h1 {
+    font-family: Syne;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .headerPart3 {
+    background-image: url(images/Group\ 15.png);
+    background-size: 480px 360px;
+  }
+
+  .sendButton {
+    width: 100px;
+    height: 100px;
+    left: 10vw;
+    top: 21vh;
+  }
+
+  .menu {
+    display: none;
+  }
 }
