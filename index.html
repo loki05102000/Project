@@ -50,15 +50,24 @@
         <div class="headerBags">
           <span>WISHLIST (0)</span> <span>BAG (0)</span>
         </div>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
       </div>
       <img src="images/Group 16.png" alt="image" class="image" />
 
       <div class="headerPart3">
         <div class="menu">
-          <a href="">HOME</a>
-          <a href="">ABOUT</a>
-          <a href="">OUR PRODUCTS</a>
-          <a href="">CONTACT US</a>
+          <nav class="navBar">
+            <ul class="navBarList">
+              <li class="navList"><a class="a" href="">HOME</a></li>
+              <li class="navList"><a class="a" href="">ABOUT</a></li>
+              <li class="navList"><a class="a" href="">OUR PRODUCTS</a></li>
+              <li class="navList"><a class="a" href="">CONTACT US</a></li>
+            </ul>
+          </nav>
         </div>
         <h1 class="h1Heading1">Fresh</h1>
         <h1 class="year">2023</h1>
@@ -117,5 +126,12 @@
       All Rights Reserved By SD&nbsp;
     </footer>
     <script src="index.js"></script>
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function () {
+        navBar = document.querySelector(".navBarList");
+        navBar.classList.toggle("active");
+      };
+    </script>
   </body>
 </html>
